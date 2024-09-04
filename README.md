@@ -6,6 +6,23 @@ API automation framework using Rest Assured, Cucumber, and Java.
 ## Overview
 This project is a RestAssured framework designed to handle the AddPlace API. It uses Cucumber for BDD, allowing you to validate the AddPlace API by updating a JSON payload with specific values from a Cucumber data table.
 
+## Tech Stack Used
+Here are the key technologies used in the framework:
+
+1. **Java**: The core programming language.
+2. **Maven**: Build automation tool used for managing project dependencies and building the project.
+3. **Rest Assured**: For API testing and validation.
+4. **Hamcrest**: For making assertions in tests.
+5. **Jackson Databind**: For parsing and processing JSON data.
+6. **Cucumber**: For BDD (Behavior Driven Development), including `cucumber-java` and `cucumber-junit`.
+7. **JUnit**: For running unit tests.
+8. **Groovy**: For scripting within the Java environment.
+9. **Maven Surefire Plugin**: For running tests during the build process.
+10. **JSON (org.json and json-simple)**: Libraries for working with JSON data.
+11. **Maven Cucumber Reporting**: For generating Cucumber reports after test execution. 
+
+These technologies together create a comprehensive framework for API automation testing with BDD capabilities.
+
 ## Project Structure
 
 ## IDE Project Structure Image

@@ -9,8 +9,8 @@ This project is a RestAssured framework designed to handle the AddPlace API. It 
 ## Project Structure
 
 ## IDE Project Structure Image
-<img width="955" alt="image" src="https://github.com/user-attachments/assets/8bfc1bb3-e1ef-4ae8-bc3c-0ac228d4d122">
-<img width="955" alt="image" src="https://github.com/user-attachments/assets/ee9b48de-7c57-43d8-b189-913e970f413e">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/3c259929-9291-4572-986a-701e5a2cb725">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/91288e8e-9385-4fde-9b0a-ec667eef3c0b">
 
 ### 1. Feature File (`AddPlace.feature`)
 - **Scenario**: Validates the AddPlace API by updating a JSON payload (`AddPlace.json`) with specific values from a Cucumber data table.
@@ -19,6 +19,8 @@ This project is a RestAssured framework designed to handle the AddPlace API. It 
   - `When User calls "AddPlaceAPI" with "Post" http request`: Calls the AddPlaceAPI endpoint using a POST request.
   - `Then The API calls got success with status code 200`: Validates the response status code.
   - `And the payload should be updated successfully and Print`: Confirms that the payload was updated correctly.
+ <img width="955" alt="image" src="https://github.com/user-attachments/assets/41e84134-8143-480b-8697-958de17703d6">
+
     
 
 ### 2. Test Runner (`TestRunner.java`)
@@ -26,6 +28,8 @@ This project is a RestAssured framework designed to handle the AddPlace API. It 
   - `features`: Points to the location of your feature files.
   - `glue`: Indicates the package where the step definitions are located.
   - `plugin`: Generates a JSON report for the test results.
+ <img width="959" alt="image" src="https://github.com/user-attachments/assets/47be172b-f293-406b-a25d-64ccb2f3a3c3">
+
 
 ### 3. Step Definitions (`StepDefination.java`)
 - **Key Methods**:

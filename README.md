@@ -1,5 +1,7 @@
 # API-Automation
 API automation framework using Rest Assured, Cucumber, and Java.
+This setup is almost robust and allows for easy extension and maintenance. 
+You can add new features, scenarios, or even APIs without significant changes to the underlying structure.
 
 # RestAssured Framework for API Automation
 

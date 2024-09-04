@@ -54,6 +54,6 @@ This project is a RestAssured framework designed to handle the AddPlace API. It 
 ## Debugging
 If you encounter any issues, you can further debug by adding `System.out.println()` statements or by stepping through the code with a debugger to inspect the values at different points in the execution.
 
-##Report
+## Report
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/7aa2f971-ce4f-467d-be1f-d6e52c4d73c8">
 

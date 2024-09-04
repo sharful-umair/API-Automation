@@ -7,6 +7,11 @@ API automation framework using Rest Assured, Cucumber, and Java.
 This project is a RestAssured framework designed to handle the AddPlace API. It uses Cucumber for BDD, allowing you to validate the AddPlace API by updating a JSON payload with specific values from a Cucumber data table.
 
 ## Project Structure
+
+## IDE Project Structure Image
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/8bfc1bb3-e1ef-4ae8-bc3c-0ac228d4d122">
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/ee9b48de-7c57-43d8-b189-913e970f413e">
+
 ### 1. Feature File (`AddPlace.feature`)
 - **Scenario**: Validates the AddPlace API by updating a JSON payload (`AddPlace.json`) with specific values from a Cucumber data table.
 - **Steps**:
@@ -14,6 +19,7 @@ This project is a RestAssured framework designed to handle the AddPlace API. It 
   - `When User calls "AddPlaceAPI" with "Post" http request`: Calls the AddPlaceAPI endpoint using a POST request.
   - `Then The API calls got success with status code 200`: Validates the response status code.
   - `And the payload should be updated successfully and Print`: Confirms that the payload was updated correctly.
+    
 
 ### 2. Test Runner (`TestRunner.java`)
 - **Cucumber Options**:

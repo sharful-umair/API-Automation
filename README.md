@@ -37,24 +37,41 @@ This project is a RestAssured framework designed to handle the AddPlace API. It 
   - `@When("User calls {string} with {string} http request")`: Executes the API call based on the specified method (e.g., POST, GET).
   - `@Then("The API calls got success with status code {int}")`: Verifies the response status code.
   - `@Then("the payload should be updated successfully and Print")`: Prints the updated JSON payload to confirm the changes.
+    <img width="959" alt="image" src="https://github.com/user-attachments/assets/04ce076a-c5e8-406b-8e0b-4e5a8c1ad558">
+
 
 ### 4. Utilities (`Utils.java`)
 - **Methods**:
   - `updateJsonPayload`: Merges the original JSON with updates from the data table without altering the original file.
   - `mergeJsonObjects`: Handles recursive merging of nested JSON objects.
   - `requestSpecification`: Creates a request specification with logging and other configurations.
+    <img width="956" alt="image" src="https://github.com/user-attachments/assets/5ba3a801-b8b8-47b8-9ae7-86bca8be0285">
+
 
 ### 5. Test Data Builder (`TestDataBuild.java`)
 - Builds POJO objects for the AddPlace and DeletePlace requests.
+  <img width="959" alt="image" src="https://github.com/user-attachments/assets/fb21269d-eda9-4619-888b-ce9a59528165">
+
 
 ### 6. Enum for API Resources (`APIResources.java`)
 - Stores the endpoints for different APIs as enum constants, making it easier to manage and update API endpoints.
+  <img width="959" alt="image" src="https://github.com/user-attachments/assets/757609cd-99b5-426e-ae22-cc553a05aecd">
+
 
 ### 7. Global Properties (`global.properties`)
 - Stores configuration values such as `baseUrl`, `key`, and `payloadBaseDir`, which are loaded using the `getGlobalValue` method.
+  <img width="957" alt="image" src="https://github.com/user-attachments/assets/c2988223-f43a-4318-ac87-345f4185693e">
+
 
 ### 8. Payload JSON File (`AddPlace.json`)
 - Example payload file located in the specified `payloadBaseDir` directory.
+  <img width="957" alt="image" src="https://github.com/user-attachments/assets/3b247ab8-cd4d-410a-8b61-1d3cd4c42541">
+
+### 9. Logging
+  - File to log all request and response
+    <img width="953" alt="image" src="https://github.com/user-attachments/assets/ec7bae9c-a446-4ff6-ada4-ffb43e768d8a">
+
+
 
 ## Execution Flow
 1. The feature file triggers the step definitions.
@@ -64,6 +81,9 @@ This project is a RestAssured framework designed to handle the AddPlace API. It 
 ## Debugging
 If you encounter any issues, you can further debug by adding `System.out.println()` statements or by stepping through the code with a debugger to inspect the values at different points in the execution.
 
-## Report
+## Cucumber HTML Report
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/7aa2f971-ce4f-467d-be1f-d6e52c4d73c8">
+
+## CI CD
+Coming soon
 

@@ -1,10 +1,18 @@
 # API-Automation
 API automation framework using Rest Assured, Cucumber, and Java.
 
-# RestAssured Framework for AddPlace API
+# RestAssured Framework for API Automation
 
 ## Overview
-This project is a RestAssured framework designed to handle the AddPlace API. It uses Cucumber for BDD, allowing you to validate the AddPlace API by updating a JSON payload with specific values from a Cucumber data table.
+This project is a RestAssured framework designed to handle the API Automation. 
+It uses Cucumber for BDD, allowing you to automated the API by updating a JSON payload with specific values from a Cucumber data table and pojo class, create request and verify the response.
+
+## Workflow
+Feature Execution: You execute tests using the Test Runner, which triggers Cucumber to read feature files.
+Step Execution: Each step in the feature files is matched to a step definition, where the actual code is executed.
+API Request: The framework builds and sends the API request using Rest Assured.
+Response Validation: The response is validated against expected outcomes, such as status codes and payload content.
+Logging: Requests and responses are logged to a file for later inspection.
 
 ## Tech Stack Used
 Here are the key technologies used in the framework:

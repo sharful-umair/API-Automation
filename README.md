@@ -16,6 +16,9 @@ API Request: The framework builds and sends the API request using Rest Assured.
 Response Validation: The response is validated against expected outcomes, such as status codes and payload content.
 Logging: Requests and responses are logged to a file for later inspection.
 
+![diagram-export-9-4-2024-11_16_14-PM](https://github.com/user-attachments/assets/f881e812-0e6a-402c-9b66-c6c6ab393f3f)
+
+
 ## Tech Stack Used
 Here are the key technologies used in the framework:
 
